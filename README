@@ -1,0 +1,61 @@
+perl-Parse-Yapp
+------------------------------------------
+Parse::Yapp lets you create Perl OO fully reentrant LALR(1) parser 
+modules (see the Yapp.pm pod pages for more details) and has been 
+designed to be functionally as close as possible to yacc, but using the 
+full power of Perl and opened for enhancements.
+
+Runtime requirements:
+  perl-5.10.0-3
+
+Build requirements:
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/Parse-Yapp/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/F/FD/FDESAR/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Parse-Yapp-1.05-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Parse-Yapp-1.05-X.cygport all
+
+This will create:
+  /usr/src/perl-Parse-Yapp-1.05-X-src.tar.bz2
+  /usr/src/perl-Parse-Yapp-1.05-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/yapp
+  /usr/lib/perl5/vendor_perl/5.10/Parse/Yapp.pm
+  /usr/lib/perl5/vendor_perl/5.10/Parse/Yapp/Driver.pm
+  /usr/lib/perl5/vendor_perl/5.10/Parse/Yapp/Grammar.pm
+  /usr/lib/perl5/vendor_perl/5.10/Parse/Yapp/Lalr.pm
+  /usr/lib/perl5/vendor_perl/5.10/Parse/Yapp/Options.pm
+  /usr/lib/perl5/vendor_perl/5.10/Parse/Yapp/Output.pm
+  /usr/lib/perl5/vendor_perl/5.10/Parse/Yapp/Parse.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Parse/Yapp/.packlist
+  /usr/share/doc/perl-Parse-Yapp-1.05/Changes
+  /usr/share/doc/perl-Parse-Yapp-1.05/README
+  /usr/share/man/man1/yapp.1.gz
+  /usr/share/man/man3/Parse.Yapp.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.05-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
